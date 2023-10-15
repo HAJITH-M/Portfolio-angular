@@ -1,0 +1,47 @@
+/* Custom CSS for Navigation Bar */
+.navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff9900;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      border-color: #fff;
+    }
+  }
+  
+
+
+
+  .card {
+    width: 500px; /* Customize the width here */
+    height: 400px; /* Customize the height here */
+    margin-top: 100px;
+}
+
+.card img {
+    height: 80%; /* Customize the image height here */
+    width: 100%; /* Make the image fill the width of the card */
+    object-fit: cover;
+}

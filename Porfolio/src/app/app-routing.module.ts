@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
+import { Project1Component } from './project1/project1.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path:'contact', component: ContactComponent},
   { path:'skills', component: SkillsComponent},
   { path:'portfolio', component: PortfolioComponent},
+  { path:'project1', component: Project1Component},
   { path:'**', redirectTo:''}
 ];
 

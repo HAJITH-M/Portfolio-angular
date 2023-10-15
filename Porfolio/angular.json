@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Porfolio": {
+    "portfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/porfolio",
+            "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -60,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Porfolio:build:production"
+              "browserTarget": "portfolio:build:production"
             },
             "development": {
-              "browserTarget": "Porfolio:build:development"
+              "browserTarget": "portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Porfolio:build"
+            "browserTarget": "portfolio:build"
           }
         },
         "test": {
@@ -94,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7176882b-968f-4705-9fec-345ef3b68a2c"
   }
 }

@@ -1,0 +1,119 @@
+/* Custom CSS for Navigation Bar */
+.navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff9900;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      border-color: #fff;
+    }
+  }
+  
+
+
+
+  /* Custom CSS for About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #about .row {
+    align-items: center;
+  }
+  
+  #about img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    #about .row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #about img {
+      margin-bottom: 50px;
+      margin-left: auto;
+    }
+  }
+  
+ /* Custom CSS for Education Section */
+ #education {
+    padding: 80px 0;
+  }
+  
+  #education h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #education .row {
+    justify-content: center;
+  }
+  
+  #education .col-md-6 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #education h4 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #education p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    #education .col-md-6 {
+      margin-bottom: 30px;
+    }
+  }
+  

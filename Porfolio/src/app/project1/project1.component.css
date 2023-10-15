@@ -33,15 +33,58 @@
   
 
 
-
-  .card {
-    width: 300px; /* Customize the width here */
-    height: 400px; /* Customize the height here */
-    margin-top: 100px;
+ /* Custom CSS for Portfolio Section */
+ #portfolio {
+  padding: 80px 0;
 }
 
-.card img {
-    height: 60%; /* Customize the image height here */
-    width: 100%; /* Make the image fill the width of the card */
-    object-fit: cover;
+#portfolio h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
 }
+
+.portfolio-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-item h4 {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+}
+
+.fixed-image {
+  height: 300px; /* Adjust the desired height */
+  object-fit: cover;
+  width: 100%;
+}
+

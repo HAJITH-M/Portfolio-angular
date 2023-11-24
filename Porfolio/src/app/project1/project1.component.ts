@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Project1Component {
 
+  projectLink = 'https://drive.google.com/drive/folders/1iK5gdNllEvAnD9XG-gmBsAjM0Hn1Ap0o';
+
 }

@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
 import { Project1Component } from './project1/project1.component';
+import { HTMLProjectsComponent } from './html-projects/html-projects.component';
+import { FIGMAProjectsComponent } from './figma-projects/figma-projects.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { Project1Component } from './project1/project1.component';
     PortfolioComponent,
     SkillsComponent,
     Project1Component,
+    HTMLProjectsComponent,
+    FIGMAProjectsComponent,
   
     
   ],
